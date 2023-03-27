@@ -1,0 +1,22 @@
+.nav ul{
+	margin: 0 auto;
+	width: 100%;		
+	padding: 25px 0;
+}
+.nav ul li{
+	list-style: none;		
+	float: left;
+	margin:0;	
+	margin:0 3.5% 0 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+ul.filter{
+	margin: 0 auto;
+	width: 70%;	
+	overflow: auto;	
+}
+

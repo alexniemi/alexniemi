@@ -1,0 +1,64 @@
+
+ul.wi-container {
+	width: 100%;
+	height: 270px;
+	margin: 0 auto 30px;
+	position: relative;
+	padding: 0;
+	list-style-type: none; 
+	-webkit-perspective: 1400px;
+	-moz-perspective: 1400px;
+	-ms-perspective: 1400px;
+	-o-perspective: 1400px;
+	perspective: 1400px;
+}
+ul.wi-container li {
+	width: 100%;
+	height: 100%;
+	display: none;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;	
+	padding: 20px;
+	pointer-events: auto;
+}
+ul.wi-container li.wi-move {
+	pointer-events: none;
+	-webkit-transition: -webkit-transform 600ms ease, opacity 600ms ease, left 600ms ease, top 600ms ease;
+	-moz-transition: -moz-transform 600ms ease, opacity 600ms ease, left 600ms ease, top 600ms ease;
+	-o-transition: -o-transform 600ms ease, opacity 600ms ease, left 600ms ease, top 600ms ease;
+	-ms-transition: -ms-transform 600ms ease, opacity 600ms ease, left 600ms ease, top 600ms ease;
+	transition: transform 600ms ease, opacity 600ms ease, left 600ms ease, top 600ms ease;
+}
+.windy-demo ul.wi-container li {
+	padding: 0;
+	border: 10px solid #fff;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#slider {
+	width: 200px;
+	margin: 40px auto 0;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0 1px 1px rgba(255,255,255,0.8), inset 0 1px 2px rgba(0,0,0,0.3), 0 0 0 8px rgba(0,0,0,0.1), 0 1px 1px 8px rgba(255, 255, 255, 0.8);
+	background: #f05c45;
+	background: -moz-linear-gradient(top, #f05c45 0%, #ff9686 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f05c45), color-stop(100%,#ff9686));
+	background: -webkit-linear-gradient(top, #f05c45 0%,#ff9686 100%);
+	background: -o-linear-gradient(top, #f05c45 0%,#ff9686 100%);
+	background: -ms-linear-gradient(top, #f05c45 0%,#ff9686 100%);
+	background: linear-gradient(to bottom, #f05c45 0%,#ff9686 100%);
+}
+#slider a {
+	outline: none;
+	cursor: pointer;
+	border: none;
+	background: white;
+	border-radius: 50%;
+	box-shadow: 0 3px 4px rgba(0,0,0,0.4);
+}
