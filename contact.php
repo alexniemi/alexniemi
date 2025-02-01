@@ -1,8 +1,8 @@
 <?php
 
   //*****************************************************
-  $your_site_name = "___";              // please change!
-  $your_email = "noreply@noreply.no";   // please change!
+  $your_site_name = "alexniemi.com";             
+  $your_email = "alex@muircapitalintelligence.com";   
   //*****************************************************
 
   // post vars
@@ -22,9 +22,6 @@
   }
 
   if (!isset($error)) {
-
-    // no errors! good! you may add here special contact functional.
-
     // an email example:
     $header  = "MIME-Version: 1.0\r\n";
     $header .= "Content-type: text/html; charset=utf-8\r\n";
@@ -35,4 +32,4 @@
   }
 ?>
 <p><strong>Thank you</strong>. Your Message has been Sent.</p>
-<p>We will respond to you shortly if your message requires a response.</p>
+<p>We'll respond soon.</p>
